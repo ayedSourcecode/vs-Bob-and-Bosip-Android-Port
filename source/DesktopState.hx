@@ -292,7 +292,9 @@ class DesktopState extends MusicBeatState
 			}
 			
 		}
-		if (goldFolderCheck) {
+		
+		if (goldFolderCheck) 
+		{
 			FlxG.save.data.sol = true;
 		}
 		songsUnlocked[0] = true;
